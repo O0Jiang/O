@@ -6,7 +6,12 @@ body {
 }
 .juzhong {
     text-align: center;  
+  
 }
+a:-webkit-any-link{
+    color: transparent;
+}
+
 
 .ys {
     text-align: center;
