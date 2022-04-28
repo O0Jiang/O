@@ -3,7 +3,7 @@ body {
     background-image: url("./img/beijing.png");
     background-repeat: no-repeat;
     margin:0;
-    height:100vh;
+  
 
 }
 .juzhong {
@@ -62,6 +62,12 @@ li a:hover {
             color: deepskyblue;
 }
 main {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 350px;
+    margin: 0 auto 0 auto;
     text-align: center;
-    border: 2px solid white;
+    border:10px;
+    padding:10px;
+    box-shadow:0 0 50px;
 }
