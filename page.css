@@ -12,6 +12,7 @@ body {
     background-image: url("./img/beijing.png");
     background-repeat: no-repeat;
     margin:0;
+    height: 100vh;
 }
 
 .daohang{
