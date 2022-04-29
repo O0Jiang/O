@@ -17,6 +17,9 @@ body {
     
     background-color:rgba(159, 223, 239, 0.3);
 }
+.img1:hover img{
+   transform:scale(1.2);
+}
 a:hover{
     color: rgb(237, 26, 114);
 }
