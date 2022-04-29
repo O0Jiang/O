@@ -1,4 +1,4 @@
-@media (max-width:600px){
+@media (max-width:640px){
  .daohang2{
     display: none;}
 
@@ -12,9 +12,11 @@
 
 body {
     background-image: url("./img/beijing.png");
-  
-    background-size: 100% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
     margin:0;
+    height: 100vh;
     
 }
 
@@ -34,7 +36,7 @@ a:hover{
     border-radius: 0px 0px 50px 50px;
     text-align: center;
     padding: 20px 0 20px 0;
-    width:1000px;
+    width: 800px;
     height: 40px;
     margin: 0 auto 0 auto;
     margin-bottom: 30px;
