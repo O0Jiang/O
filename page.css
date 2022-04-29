@@ -33,9 +33,10 @@ body {
    
 }
 
-a:-webkit-any-link {
-    color: transparent;
+a{
+    display:inline-block;
 }
+
 .juzhong {
     text-align: center; 
     background-color: rgba(1, 123, 154, 0.3);
