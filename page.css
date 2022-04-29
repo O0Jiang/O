@@ -1,15 +1,3 @@
-@media (max-width:640px){
- .daohang2{
-    display: none;}
-
- }
-
- *{
-     padding: 0;
-     border: 0;
- }
-
-
 body {
     background-image: url("./img/beijing.png");
     background-size: cover;
