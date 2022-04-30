@@ -7,16 +7,13 @@ body {
     height: 100vh;
     
 }
-.shubiao:hover{
-    
-    background-color:rgba(159, 223, 239, 0.3);
+/*flex弹性布局*/
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
-.img1:hover img{
-   transform:scale(1.2);
-}
-a:hover{
-    color: rgb(237, 26, 114);
-}
+/*导航样式*/
 .daohang{
     background-color: rgba(0, 72, 90, 0.3);
     box-shadow: 0 0 50px;
@@ -26,9 +23,26 @@ a:hover{
     width: 800px;
     height: 30px;
     margin: 0 auto 0 auto;
-    
-  
 }
+/*鼠标反馈*/
+.shubiao:hover{
+    
+    background-color:rgba(159, 223, 239, 0.3);
+}
+/*头像居中*/
+.touxiang{
+    width: 100px;
+    margin: auto;
+}
+/*头像img反馈*/
+.img1:hover img{
+   transform:scale(1.3);
+}
+/*导航字体反馈*/
+a:hover{
+    color: rgb(237, 26, 114);
+}
+/*导航字体颜色样式*/
 .dhys{
      border-radius:0px 0px 20px 20px;
      padding:7px;
@@ -37,50 +51,39 @@ a:hover{
      margin:10px;
 
 }
-
+/*a标签样式*/
 a{
     display:inline-block;
     text-decoration:none;
     color: white;
 }
-
+/*居中样式*/
 .juzhong {
     text-align: center; 
     background-color: rgba(1, 123, 154, 0.3);
-    width: 200px;
-    margin: 0 auto 0 auto;
-    box-shadow: 0 0 50px;
-    border:0px;
-    padding: 0px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid rgb(137, 175, 208);
+    box-shadow: 0 0 10px rgb(88, 166, 194);
     border-radius:20px 20px 20px 20px;
   
 }
-
+/*字体样式*/
 .ys {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
    
 }
-
-.daxiao{
-    font-size:20px;
-    color:skyblue;
-}
-.div2 p{
-    height:10px;
-    font-size:5px;
-    
-
-}
+/*主体内容样式*/
 main {
     background-color: rgba(0, 72, 90, 0.3);
     width: 500px;
     height: auto;
-    margin: 0 auto 0 auto;
-    margin-bottom: 50px;
+    margin:auto; 
+    margin: 15px 0px 15px 0px;
     text-align: center;
-    border:0px;
     padding:10px;
-    box-shadow:0 0 50px;
+    box-shadow:0 0 50px rgb(249, 0, 66);
     border-radius:50px 50px 50px 50px;
 }
