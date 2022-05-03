@@ -30,6 +30,7 @@ body {
     padding: 10px;
     font-size: 20px;
     line-height: 40px;
+    border-radius: 20px;
     background-color: rgba(123, 52, 91, 0);
 }
 /*鼠标反馈*/
