@@ -2,6 +2,7 @@ body {
     background-image: url("./img/beijing.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
     margin:0;
     height: 100vh;
@@ -19,15 +20,21 @@ body {
     box-shadow: 0 0 50px;
     border-radius: 0px 0px 50px 50px;
     text-align: center;
-    padding: 20px 0 20px 0;
     width: 800px;
-    height: 30px;
+    height: auto;
     margin: 0 auto 0 auto;
+}
+/*导航a标签*/
+.daohang a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: rgba(123, 52, 91, 0);
 }
 /*鼠标反馈*/
 .shubiao:hover{
-    
-    background-color:rgba(159, 223, 239, 0.3);
+    background-color:rgba(20, 134, 179, 0.5);
 }
 /*头像居中*/
 .touxiang{
