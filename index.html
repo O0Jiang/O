@@ -8,18 +8,24 @@
     <link rel="stylesheet" type="text/css" href="./page.css" />
 </head>
 
-<body onload="time()" class="flex">
+<body onload="time()">
+    <!--侧边绝对定位栏-->
+    <div class="cb cbhz">
+        <p>侧<br />边<br />导<br />航</p>
+        <p><a href="#daohang">TOP</a></p>
+    </div>
     <!--头部导航栏区-->
     <div class=" daohang">
-     <a href="#" class="shubiao" title="重新进入次元">次元</a>
-     <a href="#" class="shubiao" title="大佬们的次元">异次元</a>
-     <a href="#" class="shubiao" title="留言">遗失空间</a>
-     <a href="#" class="shubiao" title="回忆">破碎空间</a>
+        <a href="#" class="shubiao" title="重新进入次元">次元</a>
+        <a href="#" class="shubiao" title="大佬们的次元">异次元</a>
+        <a href="#" class="shubiao" title="留言">遗失空间</a>
+        <a href="#" class="shubiao" title="回忆">破碎空间</a>
     </div>
 
     <div class="ys" style=" margin: 20px;">
         <strong>请出示您的健康码</strong>
     </div>
+
     <!--主要内容-->
     <div style="height:auto;">
         <main>
@@ -38,10 +44,41 @@
             <p class="ys">...摸鱼...</p>
         </main>
     </div>
+
+    <!--正文-->
+    <div class="zhengwen">
+        <div>
+            
+        </div>
+    </div>
+
     <!--网站运行时间-->
     <div>
         <h2 style="text-align:center; color:white;" id="showtime"></h2>
     </div>
+
+    <!--放置联系方式图片链接-->
+    <div class="juzhong">
+        <div>
+            <a href="https://space.bilibili.com/35295391/" target="_blank">
+                <img border="0" alt="奇奇怪的B站" src="./img/b.png" title="B站主页" width="40" height="40">
+            </a>
+        </div>
+
+        <div>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=824157384&site=qq&menu=yes" target="_blank">
+                <img border="0" alt="奇奇怪的QQ" src="./img/qq.png" title="QQ" width="40" height="40">
+            </a>
+        </div>
+    </div>
+
+    <!--底部信息栏-->
+    <div style="font-size: 15px;">
+        <p class="ys">网页所有：&#10024奇奇怪</p>
+        <p class="ys">&#11088 2022 &#11088</p>
+    </div>
+
+    <!--时间java-->
     <script>
         /* 时间 */
         function time() {
@@ -62,22 +99,6 @@
             return iDays
         }
     </script>
-    
-    <!--放置联系方式图片链接-->
-    <div class="juzhong">
-        <a href="https://space.bilibili.com/35295391/" target="_blank">
-            <img border="0" alt="奇奇怪的B站" src="./img/b.png" title="B站主页" width="40" height="40">
-        </a>
-        <a href="http://wpa.qq.com/msgrd?v=3&uin=824157384&site=qq&menu=yes" target="_blank">
-            <img border="0" alt="奇奇怪的QQ" src="./img/qq.png" title="QQ" width="40" height="40">
-        </a>
-    </div>
-
-    <!--底部信息栏-->
-    <footer style="font-size: 15px;">
-        <p class="ys">网页所有：&#10024奇奇怪</p>
-        <p class="ys">&#11088 2022 &#11088</p>
-    </footer>
 </body>
 
 </html>
