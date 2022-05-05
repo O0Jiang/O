@@ -6,6 +6,7 @@ body {
     overflow:auto;
     margin:0;
     height: 100vh;    
+    cursor: url(./img/Arrow.cur), auto;
 }
 
 /*导航样式*/
@@ -102,14 +103,25 @@ main {
 .cbhz{
     width: 40px;
     height: auto;
+    color: rgb(198, 11, 126);
     border-radius: 20px;
-    background-color:rgba(3, 163, 231, 0.2);
+    background-color:rgba(194, 235, 252, 0.2);
     text-align: center;
 }
 
 .zhengwen{
     width: 800px;
+    height: auto;
     margin: 0 auto;
-    margin-top: 10px;
-    background-color: rgba(1, 123, 154, 0.3);
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+/*正文盒子样式*/
+.zhengwen div{
+    background-color: rgba(75, 222, 241, 0.5);
+    border: 1px solid rgb(151, 236, 253);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
