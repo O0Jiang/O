@@ -54,6 +54,14 @@ a:hover{
      margin:10px;
 
 }
+/*QQG*/
+.qqg{
+   
+    width: auto;
+    height: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
 /*a标签样式*/
 a{
     display:inline-block;
